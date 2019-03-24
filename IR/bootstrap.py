@@ -15,6 +15,23 @@ import pandas as pd
 s=pd.Series([1, 3, 5, 6, 8]) 
 # To automate the process if we deploy this on our servers
 import os
-os.popen('pip install numpy')
+
+# It sends commands to command prompt
+os.system('pip install numpy')
+os.system('pip list')
+
 import numpy as np
+import scipy as sp
+from scipy import special, optimize
+f = lambda x: -special.jv(3, x)
+sol = optimize.minimize(f, 1.0)
+
+
+x=np.linspace(0,10,5)
+
+# above code was an indication that we successfully installed 
+
+
+
+
 
