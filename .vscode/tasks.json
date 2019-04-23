@@ -6,12 +6,9 @@
         {
             "label": "echo",
             "type": "shell",
-            "command": "echo Hello"
-
+            "command": "echo Hello",
+            "python.pythonPath": "C:/Users/chopr/AppData/Local/Programs/Python/Python37-32/python.exe",
         }
     ]
 }
 
-{
-    "python.pythonPath": "C:/Users/chopr/AppData/Local/Programs/Python/Python37-32/python.exe",
-}

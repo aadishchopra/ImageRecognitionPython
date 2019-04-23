@@ -1,3 +1,4 @@
+# install code runner extension 
 # Run below code to clear your terminal 
 import os 
 os.system("cls")
