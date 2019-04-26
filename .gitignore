@@ -1,2 +1,3 @@
 *.docx
-*.vscode
+.vscode/
+_pycache_/
